@@ -1,12 +1,10 @@
-import Relogio from './components/Relogio/Relogio' //usando o componente relogio
-import Lowercase from './components/Lowercase/Lowercase' //usando o componente Lowercase
+import { List } from './components/List/List' //usando o componente List
 import './App.css'
 
 function App() {
   return (
     <div className="app">
-      <Relogio /> 
-      <Lowercase info="TEXTO MAIUSCULO" />
+      <List />
     </div>
   )
 }
