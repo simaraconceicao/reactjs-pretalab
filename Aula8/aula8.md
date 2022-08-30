@@ -33,9 +33,9 @@ function ApplicationRoutes(){
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="expenses" element={<Sobre />} />
-        <Route path="invoices" element={<Portfolio />} />
-        <Route path="invoices" element={<Contato />} />
+        <Route path="sobre" element={<Sobre />} />
+        <Route path="portfolio" element={<Portfolio />} />
+        <Route path="contato" element={<Contato />} />
       </Routes>
   </BrowserRouter>
   )
